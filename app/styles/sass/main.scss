@@ -1,2 +1,14 @@
 @import 'bootstrap/_bootstrap';
-
+#mountElement {
+    width: 90%;
+    margin: 0 auto;
+}
+.movie-info {
+    p {
+        padding: 10px;
+    }
+    img {
+        float: left;
+        margin-right: 10px;
+    }
+}

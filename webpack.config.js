@@ -53,6 +53,11 @@ module.exports = {
                 from: './html',
                 to: './',
                 force: true
+            },
+            {
+                from: './data',
+                to: './data',
+                force: true
             }
         ])        
     ]
