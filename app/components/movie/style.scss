@@ -1,0 +1,22 @@
+.movie {
+    display: block;
+    width: 200px;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    .movie-title {
+        font-size: 16px;
+    }
+
+    .description {        
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 12px;
+        line-height: 1.5;
+        max-height: 12 * 1.5 * 3;
+    }
+}
+

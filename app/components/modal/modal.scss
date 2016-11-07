@@ -1,0 +1,26 @@
+.modal-container{
+    display: none;
+    
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: #000;
+        opacity: 0.8;    
+    }
+    .dizzy-modal {
+        background: #fff;
+        padding: 20px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        display: block;
+        min-width: 300px;
+        max-width: 500px;
+        min-height: 400px;
+        border-radius: 5px;
+    }
+}
+
